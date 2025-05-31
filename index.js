@@ -91,7 +91,7 @@ let geocode = {
       navigator.geolocation.getCurrentPosition(success, console.error);
       }
       else{
-         weather.fetchWeather("Lagos");
+         weather.fetchWeather("Tokyo");
       }
    }
 }
